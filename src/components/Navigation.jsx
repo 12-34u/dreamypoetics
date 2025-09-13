@@ -5,7 +5,7 @@ const Navigation = ({ onLogoClick }) => {
   return (
     <nav className="navbar">
       <div className="nav-content">
-        <a href="#" className="nav-logo" onClick={(e) => { e.preventDefault(); onLogoClick(); }}>
+        <a href="#" className="nav-logo" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
           Dreamy Poetics
         </a>
         <div className="nav-links">
