@@ -65,7 +65,7 @@ useEffect(() => {
       <main
         className="main-content"
         ref={mainContentRef}
-        style={blurred ? { filter: 'blur(8px)', transition: 'filter 0.3s' } : { transition: 'filter 0.3s' }}
+        style={selectedPoem && blurred ? { filter: 'blur(8px)' } : { filter: 'none' }}
       >
         {selectedPoem ? (
           <div className="poem-view-container fade-in">
