@@ -9,9 +9,16 @@ const Navigation = ({ onLogoClick }) => {
           Dreamy Poetics
         </a>
         <div className="nav-links">
-          <a href="#poems">Poems</a>
-          <a href="#about">About</a>
-          
+          <a href="#poems" onClick={e => {
+            e.preventDefault();
+            const el = document.getElementById('poems');
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+          }}>Poems</a>
+          <a href="#about" onClick={e => {
+            e.preventDefault();
+            const el = document.getElementById('about');
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+          }}>About</a>
         </div>
       </div>
     </nav>

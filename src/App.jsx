@@ -56,7 +56,7 @@ function App() {
               <h2 className="section-title">About Me</h2>
               <div className="about-content">
                 <img 
-                  src="public\WhatsApp Image 2025-09-13 at 21.30.37_9ca8e339.jpg" 
+                  src="/WhatsApp%20Image%202025-09-13%20at%2021.30.37_9ca8e339.jpg" 
                   alt="Portrait of Your Name" 
                   className="about-image"
                   style={{ width: '200px', height: '200px', borderRadius: '50%', objectFit: 'cover', display: 'block' }}
