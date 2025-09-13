@@ -51,25 +51,31 @@ function App() {
                 ))}
               </div>
             </section>
-            {/* About Section */}
+            {/* About + Contact Section */}
             <section id="about" className="about-section section">
               <h2 className="section-title">About Me</h2>
               <div className="about-content">
-                <img src="https://placehold.co/150x150/e2e8f0/334155?text=You" alt="Portrait of Your Name" className="about-image" />
-                <p className="about-text">
-                  Hello! I'm Parth, a writer and dreamer based in Mumbai. Poetry, for me, is a way to capture the world in its rawest form.
-                  <br /><br />
-                  This little corner of the internet is where I share my work. Thank you for stopping by and reading my words. I hope they resonate with you in some small way.
-                </p>
+                <img 
+                  src="public\WhatsApp Image 2025-09-13 at 21.30.37_9ca8e339.jpg" 
+                  alt="Portrait of Your Name" 
+                  className="about-image"
+                  style={{ width: '200px', height: '200px', borderRadius: '50%', objectFit: 'cover', display: 'block' }}
+                />
+                <div>
+                  <p className="about-text">
+                    Hello! I'm Parth, a writer and dreamer based in Mumbai. Poetry, for me, is a way to capture the world in its rawest form.
+                    <br /><br />
+                    This little corner of the internet is where I share my work. Thank you for stopping by and reading my words. I hope they resonate with you in some small way.
+                  </p>
+                  <div className="contact-section" style={{ marginTop: '24px' }}>
+                    <h3 className="contact-title">Connect With Me</h3>
+                    <p className="contact-text">You can find more of my work and daily musings on Instagram.</p>
+                    <a href="https://www.instagram.com/your-username" target="_blank" rel="noopener noreferrer" className="insta-button">
+                      Follow me on Instagram
+                    </a>
+                  </div>
+                </div>
               </div>
-            </section>
-            {/* Contact Section */}
-            <section id="contact" className="contact-section section">
-              <h2 className="contact-title">Connect With Me</h2>
-              <p className="contact-text">You can find more of my work and daily musings on Instagram.</p>
-              <a href="https://www.instagram.com/dreamy_poetics" target="_blank" rel="noopener noreferrer" className="insta-button">
-                Follow me on Instagram
-              </a>
             </section>
           </>
         )}
