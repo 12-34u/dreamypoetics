@@ -1,0 +1,86 @@
+/* src/components/ComponentStyles.css */
+/* Styles for Header, About, Contact, Footer */
+
+/* Header */
+.header {
+  text-align: center;
+}
+.header-title {
+  font-family: var(--font-serif);
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.header-subtitle {
+  font-size: 1.125rem;
+  color: var(--text-medium);
+}
+
+/* About Section */
+.about-section {
+  background-color: var(--bg-white);
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.about-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.about-text {
+  color: var(--text-medium);
+  line-height: 1.7;
+}
+
+/* Contact Section */
+.contact-section {
+  text-align: center;
+}
+.contact-title {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+.contact-text {
+  font-size: 1.125rem;
+  color: var(--text-medium);
+  margin-bottom: 24px;
+}
+.insta-button {
+  display: inline-block;
+  background: linear-gradient(to right, #8a2be2, #ff1493);
+  color: white;
+  font-weight: 700;
+  padding: 12px 32px;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+.insta-button:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--bg-white);
+  border-top: 1px solid var(--border-color);
+  margin-top: 64px;
+}
+.footer-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  text-align: center;
+  color: var(--text-light);
+}
