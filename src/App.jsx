@@ -6,7 +6,8 @@ import Header from './components/Header';
 import PoemCard from './components/PoemCard';
 // PoemView, About, Contact, Footer do not exist as components
 import './App.css';
-import './components/ComponentStyles.css';
+
+import { Analytics } from '@vercel/analytics/react';
 
 
 // MAIN APP
@@ -120,6 +121,7 @@ useEffect(() => {
       </main>
       
 
+      <Analytics />
     </div>
   );
 }
