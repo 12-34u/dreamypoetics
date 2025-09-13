@@ -11,7 +11,7 @@ const Navigation = ({ onLogoClick }) => {
         <div className="nav-links">
           <a href="#poems">Poems</a>
           <a href="#about">About</a>
-          <a href="#contact">Contact</a>
+          
         </div>
       </div>
     </nav>
