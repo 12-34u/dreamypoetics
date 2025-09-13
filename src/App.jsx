@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+// ...existing code...
+import React, { useState, useEffect, useRef } from 'react';
 import { poems as allPoems } from './data/Poems';
 import Navigation from './components/Navigation';
 import Header from './components/Header';
@@ -8,11 +9,11 @@ import './App.css';
 import './components/ComponentStyles.css';
 
 
-
-
 // MAIN APP
 function App() {
   const [selectedPoem, setSelectedPoem] = useState(null);
+  const [blurred, setBlurred] = useState(false);
+  const mainContentRef = useRef(null);
 
   const handleSelectPoem = (poem) => {
     setSelectedPoem(poem);
@@ -23,12 +24,49 @@ function App() {
     setSelectedPoem(null);
   };
 
+  // Blur on screenshot/screenrecord (best-effort: visibilitychange and window blur/focus events)
+  useEffect(() => {
+    const handleVisibility = () => {
+      setBlurred(document.visibilityState === 'hidden');
+    };
+    const handleWindowBlur = () => {
+      setBlurred(true);
+    };
+    const handleWindowFocus = () => {
+      setBlurred(false);
+    };
+    document.addEventListener('visibilitychange', handleVisibility);
+    window.addEventListener('blur', handleWindowBlur);
+    window.addEventListener('focus', handleWindowFocus);
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibility);
+      window.removeEventListener('blur', handleWindowBlur);
+      window.removeEventListener('focus', handleWindowFocus);
+    };
+  }, []);
+
+// Replace copied text with emoji
+useEffect(() => {
+  const handleCopy = (e) => {
+    e.preventDefault();
+    if (e.clipboardData) {
+      e.clipboardData.setData('text/plain', '📝');
+    } else if (window.clipboardData) {
+      window.clipboardData.setData('Text', '📝');
+    }
+  };
+  document.addEventListener('copy', handleCopy);
+  return () => document.removeEventListener('copy', handleCopy);
+}, []);
+
   return (
     <div className="app-container">
-  {/* GlobalStyles removed: styles are handled by CSS files */}
       <Navigation onLogoClick={handleBack} />
-      
-      <main className="main-content">
+      <main
+        className="main-content"
+        ref={mainContentRef}
+        style={blurred ? { filter: 'blur(8px)', transition: 'filter 0.3s' } : { transition: 'filter 0.3s' }}
+      >
         {selectedPoem ? (
           <div className="poem-view-container fade-in">
             <button onClick={handleBack} className="back-button">

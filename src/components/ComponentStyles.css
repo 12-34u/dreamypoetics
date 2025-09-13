@@ -1,3 +1,38 @@
+/* Responsive styles for mobile */
+@media (max-width: 700px) {
+  .main-content {
+    padding: 16px 4px;
+  }
+  .header-title {
+    font-size: 2rem;
+  }
+  .about-content {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  .about-image {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+  }
+  .about-section {
+    padding: 16px;
+  }
+  .contact-title {
+    font-size: 1.25rem;
+  }
+  .poems-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .poem-card {
+    padding: 16px;
+  }
+  .poem-full-article {
+    padding: 16px;
+  }
+}
 /* src/components/ComponentStyles.css */
 /* Styles for Header, About, Contact, Footer */
 
