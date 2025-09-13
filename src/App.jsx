@@ -109,7 +109,7 @@ useEffect(() => {
                   <div className="contact-section" style={{ marginTop: '24px' }}>
                     <h3 className="contact-title">Connect With Me</h3>
                     <p className="contact-text">You can find more of my work and daily musings on Instagram.</p>
-                    <a href="https://www.instagram.com/your-username" target="_blank" rel="noopener noreferrer" className="insta-button">
+                    <a href="https://www.instagram.com/dreamy_poetics?igsh=d3gxdGdsNWU1emdo" target="_blank" rel="noopener noreferrer" className="insta-button">
                       Follow me on Instagram
                     </a>
                   </div>
