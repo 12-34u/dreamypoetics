@@ -1,6 +1,43 @@
 export const poems = [
     { 
-        id: 1, 
+    id: 1,
+        title: "My Whispered Entanglement",
+        content:`I speak with the night in a whisper of flame,
+It carries your soul though I call not your name.
+The stars keep their silence, yet bend to our will,
+Their fire runs quiet, their bodies are still.
+Should love for you kindle, it would unmake me,
+A destiny shattered across eternity.
+Were I to love you, I would be undone,
+For love such as this burns brighter than the sun.
+Like a broken star still clinging to sky,
+Its radiance endures though the heavens sigh.
+Fractured, it blazes through endless space,
+The perfect reflection of my hidden place.
+Let it not be death, yet without you I cease,
+A hollow erasure, the theft of release.
+Desperate hungers rise, a thirst I can’t sate,
+They stalk me like phantoms that will not abate.
+One reason alone keeps me distant from you
+I fear your gravity, relentless, true.
+This love would blaze like a collapsing star,
+Consume our names, erase who we are.
+My heart would orbit, never break its chain,
+So distance defends me from celestial flame.
+Better the silence, the cold of the skies,
+Than ashes of selves we’d never recognize.
+Each moment we shared lives carved on my lips,
+Your name still escapes in the quiet that slips.
+You stand unchanged, while the heavens betray,
+And leave me an echo, hollowed away.
+Perhaps the stars will remember our flame,
+Their silence eternal still carries your name.
+Not ruin, not ending, just distance implied,
+A fire withheld, yet never denied.`,
+        createdAt: '2025-09-12T10:00:00Z',
+    },
+    {
+    id: 2, 
         title: "The Sudden Void", 
         content: `On the cusp where real and myth entwine
 I step through cracks to make you mine
@@ -31,11 +68,12 @@ the story unmade, the pages rent and torn.
 But here ends the book we were writing,
 when at last we have given up fighting.
 The walls around us lie shattered, broken,
-yet inside myself, I remain unspoken.
-` 
+yet inside myself, I remain unspoken.`
+,createdAt: '2025-09-13T10:00:00Z',
+
     },
     { 
-        id: 2, 
+    id: 3, 
         title: "The Sacred Scent", 
         content: `Shall I surrender to divine love, or worship deep and true?
 In every path my soul may take, it always leads to You.
@@ -66,10 +104,11 @@ In Your eternal love, I am truly blessed.
 Where You abide, I find my sacred place,
 Without Your presence, all is void and space.
 You pulse within me, life’s eternal song,
-How can You be far, when to You I belong?` 
+How can You be far, when to You I belong?` ,
+        createdAt: '2025-09-14T10:00:00Z',
     },
     { 
-        id: 3, 
+    id: 4, 
         title: "Paint Me in Divine Red", 
         content: `O my Supreme, come paint me in your divine red,
 Don’t tease me from afar—pull closer the thread.
@@ -98,10 +137,11 @@ I’ll kiss the rosy blush on your face that shyly spreads.
 Then hold you close as we sway in our celestial dance,
 While the divine flute decides our fate, witnessing our trance.
 O Supreme, O Divine, in surrender and love we unite,
-Bound by sacred colors in eternal light.` 
+Bound by sacred colors in eternal light.` ,
+        createdAt: '2025-09-15T10:00:00Z',
     },
     { 
-        id: 4, 
+    id: 5, 
         title: "Devotee's Ache", 
         content: `O my devotion, behold your devotee,
 Words that arise from sacred scrutiny.
@@ -126,10 +166,11 @@ I search with eyes, though you're the vibe around me,
 To be liked is but a fleeting reflection,
 But to be valued is a divine connection.
 Not just a whisper in the winds of time,
-But a bond eternal, a love sublime.` 
+But a bond eternal, a love sublime.` ,
+        createdAt: '2025-09-13T10:00:00Z',
     },
     { 
-        id: 5, 
+    id: 6, 
         title: "Abyssal Eyes", 
         content: `O the keeper of abyssal eyes, let me sink into them and never return,
 Paint me into your divine hue and never shall my colour turn,
@@ -152,10 +193,11 @@ Your presence, my soul's only clemency,
 No need for touch to feel you near,
 Your breathe is in the air and atmosphere, 
 So until you arrive, let me live where you've been,
-Inside the essence beneath my skin.` 
+Inside the essence beneath my skin.` ,
+        createdAt: '2025-09-14T10:00:00Z',
     },
     { 
-        id: 6, 
+    id: 7,
         title: "Divine Essence", 
         content: `You are in my heart, my every breath,
 I sense you close yet out of reach,
@@ -183,7 +225,8 @@ In you, resides my highest devotion,
 Yet some more time left for you to recognize,
 A bit more patience in disguise,
 Soon you'll realise the love's presence,
-And then nothing halts our divine essence.` 
+And then nothing halts our divine essence.` ,
+        createdAt: '2025-09-15T10:00:00Z',
     },
 ];
 
