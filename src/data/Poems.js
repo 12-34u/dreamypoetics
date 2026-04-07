@@ -1,6 +1,41 @@
 export const poems = [
     {
         id: 1,
+        title: "Breath that loves you",
+        content: `If ever you were written into my breath, the air would echo your name,
+If ever you were written into my breath, love would outgrow all blame.
+The day you would rest within my being, all roads would incline to you,
+The day you would rest within my being, every path would begin in you.
+If ever you were written into my breath, the air would echo your name,
+If ever you were written into my breath, love would outgrow all blame.
+The day you would rest within my being, all roads would incline to you,
+The day you would rest within my being, every path would begin in you.
+Restless, you ascend within me as love’s most exquisite upheaval,
+A tender, inward turning, at once serene, yet faintly primeval.
+And my world, in your embrace, assumes the hush of a dream of me,
+Therein, in that quietude, I become all I was ordained to be.
+The heavens themselves seem to falter, as though they have never beheld one like you,
+In quiet astonishment, they linger, uncertain what such radiance might do.
+All splendour gathers, as if summoned, wherever your presence comes to be,
+Abide, I pray, within my arms, for that alone is my only plea.
+What once passed lightly between us now ripens, made solemn by time,
+Each moment assuming a cadence so inward, it borders on the sublime.
+They rise in the silence, as fragments of something we never outgrew,
+A sacred, unspoken remembering the spirit returns to.
+Different names are uttered for a power, still singular, still unknown,
+Each calling it sacred in silence, yet standing before it alone.
+In loving, there is fire, and a learning to step from its view,
+A closeness that leans into warmth, yet remembers what it once knew.
+So change arrives, not as erasure, but as light altering hue,
+A quiet becoming that bends toward love, yet remains wholly true.
+Deeper it turns, and deeper it grew,
+Beyond what was spoken, beyond what we knew.
+Deeper in silence, it gathers from view,
+Until all that remains is its turning to you.`
+
+    },
+    {
+        id: 2,
         title: "The Silence Within the Stars",
         content: `The prominent feeling of being away from you,
 Kills me from inside, yet I can’t tell you.
@@ -29,7 +64,7 @@ Forever still burning for what you are.`,
         createdAt: '2025-09-17T20:00:00Z',
     },
     { 
-    id: 2,
+    id: 3,
         title: "My Whispered Entanglement",
         content:`I speak with the night in a whisper of flame,
 It carries your soul though I call not your name.
@@ -66,7 +101,7 @@ A fire withheld, yet never denied.`,
         createdAt: '2025-09-12T10:00:00Z',
     },
     {
-    id: 3, 
+    id: 4, 
         title: "The Sudden Void", 
         content: `On the cusp where real and myth entwine
 I step through cracks to make you mine
@@ -102,7 +137,7 @@ yet inside myself, I remain unspoken.`
 
     },
     { 
-    id: 4, 
+    id: 5, 
         title: "The Sacred Scent", 
         content: `Shall I surrender to divine love, or worship deep and true?
 In every path my soul may take, it always leads to You.
@@ -137,7 +172,7 @@ How can You be far, when to You I belong?` ,
         createdAt: '2025-09-14T10:00:00Z',
     },
     { 
-    id: 5, 
+    id: 6, 
         title: "Paint Me in Divine Red", 
         content: `O my Supreme, come paint me in your divine red,
 Don’t tease me from afar—pull closer the thread.
@@ -170,7 +205,7 @@ Bound by sacred colors in eternal light.` ,
         createdAt: '2025-09-15T10:00:00Z',
     },
     { 
-    id: 6, 
+    id: 7, 
         title: "Devotee's Ache", 
         content: `O my devotion, behold your devotee,
 Words that arise from sacred scrutiny.
@@ -199,7 +234,7 @@ But a bond eternal, a love sublime.` ,
         createdAt: '2025-09-13T10:00:00Z',
     },
     { 
-    id: 7, 
+    id: 8, 
         title: "Abyssal Eyes", 
         content: `O the keeper of abyssal eyes, let me sink into them and never return,
 Paint me into your divine hue and never shall my colour turn,
@@ -226,7 +261,7 @@ Inside the essence beneath my skin.` ,
         createdAt: '2025-09-14T10:00:00Z',
     },
     { 
-    id: 8,
+    id: 9,
         title: "Divine Essence", 
         content: `You are in my heart, my every breath,
 I sense you close yet out of reach,
