@@ -1,6 +1,34 @@
 export const poems = [
     {
-        id: 1,
+        id:1,
+        title:"Dust Beneath Your Feet",
+        content:`Oh, to be the dust beneath your feet,
+the grace for which my soul would plead.
+A place for which even the heavens long,
+a mercy bestowed—where I belong.
+A place beyond all the wealth of this world,
+where the source of all beauty lies softly unfurled.
+Oh, be the moon that envies your grace,
+for even its light is borrowed from your face.
+You hold the beauty poets fail to name,
+a living verse no words can claim.
+The heavens pause when you come near,
+as if the divine itself turns to hear.
+Like violet dusk that carries your hue,
+a shade the world remembers but never knew.
+And in a fleeting moment that spoke my heart,
+something grew still and fell apart.
+Make me a promise, even if in a breath,
+for one such vow outlives even death.
+It feels like judgment day within my heart,
+ask me what madness love can impart.
+It felt like divine grace itself to love you,
+and even more divine, you never loved me in truth.
+With her own hands, she laid flowers on my silence,
+and endings themselves became a form of elegance.`
+    },
+    {
+        id: 2,
         title:"Echoes in Purple",
         content: `Keeping me held are echoes of your feet,
 A language we follow, untamed yet complete,
@@ -30,7 +58,7 @@ No sorrow to utter, no plea to bestow,
 Only a hush… as we finally let go.`
     },
     {
-        id: 2,
+        id: 3,
         title: "Breath that loves you",
         content: `If ever you were written into my breath, the air would echo your name,
 If ever you were written into my breath, love would outgrow all blame.
@@ -65,7 +93,7 @@ Until all that remains is its turning to you.`
 
     },
     {
-        id: 3,
+        id: 4,
         title: "The Silence Within the Stars",
         content: `The prominent feeling of being away from you,
 Kills me from inside, yet I can’t tell you.
@@ -94,7 +122,7 @@ Forever still burning for what you are.`,
         createdAt: '2025-09-17T20:00:00Z',
     },
     { 
-    id: 4,
+    id: 5,
         title: "My Whispered Entanglement",
         content:`I speak with the night in a whisper of flame,
 It carries your soul though I call not your name.
@@ -131,7 +159,7 @@ A fire withheld, yet never denied.`,
         createdAt: '2025-09-12T10:00:00Z',
     },
     {
-    id: 5, 
+    id: 6, 
         title: "The Sudden Void", 
         content: `On the cusp where real and myth entwine
 I step through cracks to make you mine
@@ -167,7 +195,7 @@ yet inside myself, I remain unspoken.`
 
     },
     { 
-    id: 6, 
+    id: 7, 
         title: "The Sacred Scent", 
         content: `Shall I surrender to divine love, or worship deep and true?
 In every path my soul may take, it always leads to You.
@@ -202,7 +230,7 @@ How can You be far, when to You I belong?` ,
         createdAt: '2025-09-14T10:00:00Z',
     },
     { 
-    id: 7, 
+    id: 8, 
         title: "Paint Me in Divine Red", 
         content: `O my Supreme, come paint me in your divine red,
 Don’t tease me from afar—pull closer the thread.
@@ -235,7 +263,7 @@ Bound by sacred colors in eternal light.` ,
         createdAt: '2025-09-15T10:00:00Z',
     },
     { 
-    id: 8, 
+    id: 9, 
         title: "Devotee's Ache", 
         content: `O my devotion, behold your devotee,
 Words that arise from sacred scrutiny.
@@ -264,7 +292,7 @@ But a bond eternal, a love sublime.` ,
         createdAt: '2025-09-13T10:00:00Z',
     },
     { 
-    id: 9,
+    id: 10,
         title: "Abyssal Eyes", 
         content: `O the keeper of abyssal eyes, let me sink into them and never return,
 Paint me into your divine hue and never shall my colour turn,
@@ -291,7 +319,7 @@ Inside the essence beneath my skin.` ,
         createdAt: '2025-09-14T10:00:00Z',
     },
     { 
-    id: 10,
+    id: 11,
         title: "Divine Essence", 
         content: `You are in my heart, my every breath,
 I sense you close yet out of reach,
